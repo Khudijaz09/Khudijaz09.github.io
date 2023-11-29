@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style type="text/css">
+	body {
+    background-color: #D3CDE1;
+			}
+h1 {
+    border: thick;
+    background-color: #8888C9;
+}
+	
+</style>
+</head>
+
+<body>
+	<div class="container">
+        <header>
+          <center> <h1>Sign Up for Food Blog </h1>
+        </header>
+<form action="https://handlers.education.launchcode.org/request-parrot" method="post"
+
+        <form id="signupForm">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+			<br> 
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+			<br>
+
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" pattern="[A-Za-z]{6,10}" placeholder="Enter 6-10 letters" title="6 to 10 letters only" required>
+            </div>
+			<br>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" pattern="[0-9A-Za-z]{6,10}" placeholder="6-10 characters" title="6 to 10 letters or numbers only" required>
+            </div>
+			<br>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+			<br>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+			<br>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+			<br>
+
+            <div class="form-group">
+                <label for="website">Personal Website:</label>
+                <input type="url" id="website" name="website">
+            </div>
+			<br>
+
+                <legend>Interests:</legend>
+                <input type="checkbox" id="recipes" name="interests" value="recipes">
+                <label for="recipes">Food Itinerary</label><br>
+                <input type="checkbox" id="reviews" name="interests" value="reviews">
+  <label for="reviews">Recipes</label><br>
+  <input type="checkbox" id="cooking" name="interests" value="cooking">
+  <label for="cooking">Product Review</label><br>
+<input type="checkbox" id="Food Analysis" name="Food" value="Food Analysis">
+  <label for="Food Analysis">Food Analysis</label><br>
+	
+            </fieldset>
+		<br>
+            <div class="form-group">
+                <label for="source">Where did you hear about us?</label>
+                <div class="radio-group">
+                    <input type="radio" id="socialMedia" name="source" value="socialMedia">
+                    <label for="socialMedia">Social Media</label><br>
+                  <input type="radio" id="friendsFamily" name="source" value="acquiantances">
+                    <label for="friendsFamily">Acquiantances</label><br>
+                    <input type="radio" id="advertisement" name="source" value="sponsors">
+                    <label for="advertisement">Sponsors</label><br>
+					 <input type="radio" id="papers" name="source" value="Flyers">
+                    <label for="Papers">Flyers</label><br>
+					
+                   
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+</body>
+</html>
+
+
+
+
